@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 117, 210);
+    padding-bottom: 3px;
+}

@@ -1,0 +1,87 @@
+.Front_page{
+    height: 500px;
+    width: 100%;
+    background: url(../assets/Computer.avif);
+    background-size: cover;
+    position: relative;
+}
+
+.Front_page h1{
+    padding-top: 340px;
+    padding-left: 180px;
+    color: whitesmoke;
+}
+
+.Front_page p{
+    padding-left: 180px;
+    padding-top: 10px;
+    color: white;
+}
+
+.pagetwo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    /* justify-content: space-around; */
+}
+
+
+.pagetwo h1{
+    color: black;
+    font-size: medium;
+}
+
+.pagetwo #select ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+}
+
+.pagetwo #select ul li{
+    gap: 10px;
+    margin: 10px;
+    /* display: table-cell; 
+    position: relative; 
+    padding: 15px 0; */
+}
+
+
+.pagetwo #select ul li a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight:bolder;
+    display: inline-block;
+    /* padding: 15px 20px; */
+    position: relative;
+}
+
+
+a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+          margin-top: 40px;
+    }
+}
+
+
+.pagetwo #but{
+    display: flex;
+    gap:10px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#but button{
+    padding: 7px;
+}
+
+#but #b{
+   background-color: rgb(47, 47, 226);
+   color:azure;
+}
